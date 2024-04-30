@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>LabelKit</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <Version>$(LabelKitEFCorePostresVersion)</Version>
+    <PackageId>LabelKit.EFCore.PostgreSQL</PackageId>
+    <Description>
+      EFCore-PostgreSQL components of LabelKit. $(LabelKitDescription)
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LabelKit.Expressions\src\LabelKit.Expressions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Core" Version="1.2.0"/>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.5" />
+  </ItemGroup>
+
+</Project>

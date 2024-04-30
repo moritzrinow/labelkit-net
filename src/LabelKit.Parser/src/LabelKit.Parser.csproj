@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>LabelKit</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <PackageId>LabelKit.Parser</PackageId>
+    <Version>$(LabelKitParserVersion)</Version>
+    <Description>
+      Default parser of LabelKit. $(LabelKitDescription)
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pidgin" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LabelKit\src\LabelKit.csproj" />
+  </ItemGroup>
+
+</Project>

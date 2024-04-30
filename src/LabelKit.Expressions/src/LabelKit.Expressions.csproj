@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>LabelKit</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <PackageId>LabelKit.Expressions</PackageId>
+    <Version>$(LabelKitExpressionsVersion)</Version>
+    <Description>
+      Expression components of LabelKit. $(LabelKitDescription)
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LabelKit\src\LabelKit.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Core" Version="1.2.0"/>
+  </ItemGroup>
+
+</Project>

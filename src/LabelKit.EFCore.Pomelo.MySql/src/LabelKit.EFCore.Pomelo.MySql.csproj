@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>LabelKit</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <Version>$(LabelKitEFCoreMySqlVersion)</Version>
+    <PackageId>LabelKit.EFCore.Pomelo.MySql</PackageId>
+    <Description>
+      EFCore-MySql (Pomelo) components of LabelKit. $(LabelKitDescription)
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LabelKit.Expressions\src\LabelKit.Expressions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{77B5086D-9774-432E-B6B9-7E660546748F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit", "LabelKit\src\LabelKit.csproj", "{05023FE8-0920-45FD-B5DA-74A13F7F841D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.Parser", "LabelKit.Parser\src\LabelKit.Parser.csproj", "{09AD4706-661B-4465-9FC8-251AC2BEE419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{49D544B0-3169-43CF-ACBB-B98713E59117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.Expressions", "LabelKit.Expressions\src\LabelKit.Expressions.csproj", "{220203D7-A6D9-4360-A2AC-3ED9715AEC89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.PostgreSQL", "LabelKit.EFCore.PostgreSQL\src\LabelKit.EFCore.PostgreSQL.csproj", "{F1495C2B-B517-4691-9F15-C5A9F4781A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.Parser.Test", "LabelKit.Parser\test\LabelKit.Parser.Test.csproj", "{7D0C5D58-98C8-431F-9121-6466FB99308E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.PostgreSQL.Test", "LabelKit.EFCore.PostgreSQL\test\LabelKit.EFCore.PostgreSQL.Test.csproj", "{5C0139BC-43F9-4B85-BA37-F8A8857ACE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.Sqlite.Test", "LabelKit.EFCore.Sqlite\test\LabelKit.EFCore.Sqlite.Test.csproj", "{3FA34980-5F2E-4BA9-9261-D2A69904250D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.SqlServer.Test", "LabelKit.EFCore.SqlServer\test\LabelKit.EFCore.SqlServer.Test.csproj", "{749F1932-533F-4D40-8C80-BC714A9B066C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.Pomelo.MySql.Test", "LabelKit.EFCore.Pomelo.MySql\test\LabelKit.EFCore.Pomelo.MySql.Test.csproj", "{1AE0D93C-CBA2-45EC-B355-6E980AD98FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.Pomelo.MySql", "LabelKit.EFCore.Pomelo.MySql\src\LabelKit.EFCore.Pomelo.MySql.csproj", "{237BC843-5D2B-4868-906B-173C2392FB58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05023FE8-0920-45FD-B5DA-74A13F7F841D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05023FE8-0920-45FD-B5DA-74A13F7F841D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05023FE8-0920-45FD-B5DA-74A13F7F841D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05023FE8-0920-45FD-B5DA-74A13F7F841D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AD4706-661B-4465-9FC8-251AC2BEE419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AD4706-661B-4465-9FC8-251AC2BEE419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AD4706-661B-4465-9FC8-251AC2BEE419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AD4706-661B-4465-9FC8-251AC2BEE419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220203D7-A6D9-4360-A2AC-3ED9715AEC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220203D7-A6D9-4360-A2AC-3ED9715AEC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220203D7-A6D9-4360-A2AC-3ED9715AEC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220203D7-A6D9-4360-A2AC-3ED9715AEC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1495C2B-B517-4691-9F15-C5A9F4781A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1495C2B-B517-4691-9F15-C5A9F4781A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1495C2B-B517-4691-9F15-C5A9F4781A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1495C2B-B517-4691-9F15-C5A9F4781A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0C5D58-98C8-431F-9121-6466FB99308E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0C5D58-98C8-431F-9121-6466FB99308E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0C5D58-98C8-431F-9121-6466FB99308E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0C5D58-98C8-431F-9121-6466FB99308E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0139BC-43F9-4B85-BA37-F8A8857ACE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0139BC-43F9-4B85-BA37-F8A8857ACE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0139BC-43F9-4B85-BA37-F8A8857ACE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0139BC-43F9-4B85-BA37-F8A8857ACE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA34980-5F2E-4BA9-9261-D2A69904250D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA34980-5F2E-4BA9-9261-D2A69904250D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA34980-5F2E-4BA9-9261-D2A69904250D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA34980-5F2E-4BA9-9261-D2A69904250D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749F1932-533F-4D40-8C80-BC714A9B066C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749F1932-533F-4D40-8C80-BC714A9B066C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749F1932-533F-4D40-8C80-BC714A9B066C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749F1932-533F-4D40-8C80-BC714A9B066C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE0D93C-CBA2-45EC-B355-6E980AD98FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE0D93C-CBA2-45EC-B355-6E980AD98FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE0D93C-CBA2-45EC-B355-6E980AD98FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE0D93C-CBA2-45EC-B355-6E980AD98FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237BC843-5D2B-4868-906B-173C2392FB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237BC843-5D2B-4868-906B-173C2392FB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237BC843-5D2B-4868-906B-173C2392FB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237BC843-5D2B-4868-906B-173C2392FB58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D0C5D58-98C8-431F-9121-6466FB99308E} = {49D544B0-3169-43CF-ACBB-B98713E59117}
+		{5C0139BC-43F9-4B85-BA37-F8A8857ACE34} = {49D544B0-3169-43CF-ACBB-B98713E59117}
+		{3FA34980-5F2E-4BA9-9261-D2A69904250D} = {49D544B0-3169-43CF-ACBB-B98713E59117}
+		{749F1932-533F-4D40-8C80-BC714A9B066C} = {49D544B0-3169-43CF-ACBB-B98713E59117}
+		{1AE0D93C-CBA2-45EC-B355-6E980AD98FFC} = {49D544B0-3169-43CF-ACBB-B98713E59117}
+	EndGlobalSection
+EndGlobal
