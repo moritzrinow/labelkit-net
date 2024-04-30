@@ -16,11 +16,11 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <LabelKitVersion>0.1.0-alpha.1001</LabelKitVersion>
-    <LabelKitExpressionsVersion>0.1.0-alpha.1001</LabelKitExpressionsVersion>
-    <LabelKitParserVersion>0.1.0-alpha.1001</LabelKitParserVersion>
-    <LabelKitEFCorePostresVersion>5.0.0-alpha.1001</LabelKitEFCorePostresVersion>
-    <LabelKitEFCoreMySqlVersion>3.0.0-alpha.1001</LabelKitEFCoreMySqlVersion>
+    <LabelKitVersion>0.1.0-alpha.1002</LabelKitVersion>
+    <LabelKitExpressionsVersion>0.1.0-alpha.1002</LabelKitExpressionsVersion>
+    <LabelKitParserVersion>0.1.0-alpha.1002</LabelKitParserVersion>
+    <LabelKitEFCorePostresVersion>5.0.0-alpha.1002</LabelKitEFCorePostresVersion>
+    <LabelKitEFCoreMySqlVersion>3.0.0-alpha.1002</LabelKitEFCoreMySqlVersion>
   </PropertyGroup>
 
   <PropertyGroup>
