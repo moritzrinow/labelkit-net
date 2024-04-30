@@ -23,15 +23,15 @@ The majority of packages support netstandard2.0.
 
 The following NuGet packages are provided:
 
-- `LabelKit`
+- [LabelKit](https://www.nuget.org/packages/LabelKit/)
   - You need to reference structured label-selectors.
-- `LabelKit.Parser`
+- [LabelKit.Parser](https://www.nuget.org/packages/LabelKit.Parser/)
   - You need to parse raw label-selectors.
-- `LabelKit.Expressions`
+- [LabelKit.Expressions](https://www.nuget.org/packages/LabelKit.Expressions/)
   - You need to build expressions and filter queries. See [here](#expressions-efcore).
-- `LabelKit.EFCore.PostgreSQL`
+- [LabelKit.EFCore.PostgreSQL](https://www.nuget.org/packages/LabelKit.EFCore.PostgreSQL/)
   - You need to filter EFCore-PostgreSQL queries. See [here](#expressions-efcore).
-- `LabelKit.EFCore.Pomelo.MySql`
+- [LabelKit.EFCore.Pomelo.MySql](https://www.nuget.org/packages/LabelKit.EFCore.Pomelo.MySql/)
   - You need to filter EFCore-MySql queries. See [here](#expressions-efcore).
 
 ## Examples
