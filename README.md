@@ -15,10 +15,6 @@ Labels are name/value pairs that can be represented as dictionaries (name->value
 
 ## Packages
 
-> [!WARNING]
-> 
-> **This project is currently in the alpha development stage. Use at your own risk.** 
-
 The majority of packages support netstandard2.0.
 
 The following NuGet packages are provided:

@@ -34,6 +34,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.Pomelo.MySq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelKit.EFCore.Pomelo.MySql", "LabelKit.EFCore.Pomelo.MySql\src\LabelKit.EFCore.Pomelo.MySql.csproj", "{237BC843-5D2B-4868-906B-173C2392FB58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Changelog", "Changelog", "{B2C203C6-284F-4D35-80A5-E7F5F9D94EDF}"
+	ProjectSection(SolutionItems) = preProject
+		..\changelog\changelog-0.1.0.md = ..\changelog\release-notes-0.1.0.md
+		..\changelog\release-notes-template.md = ..\changelog\release-notes-template.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
